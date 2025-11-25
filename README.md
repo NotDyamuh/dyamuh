@@ -1,4 +1,4 @@
-# My Portfolio Website
+# dyamuh - My Portfolio Website
 
 This is my personal portfolio website, it contains a bio and has my Github link with other links as well. Originally built using basic HTML, CSS, and JavaScript, it has now been completely rebuilt using **React** for a more dynamic and maintainable structure.
 
@@ -19,9 +19,9 @@ This is my personal portfolio website, it contains a bio and has my Github link 
 
 1. Clone this repository:
 
-   ```bash
+```bash
    git clone https://github.com/NotDyamuh/dyamuh.git
-    ```
+```
 
 2. Navigate to the project directory:
 ```bash
