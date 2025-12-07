@@ -1,6 +1,6 @@
 const AudioInit = () => {
   return (
-    <audio id="backgroundAudio" src="2TONE.mp3" preload="auto" loop></audio>
+    <audio id="backgroundAudio" src="bte.mp3" preload="auto" loop></audio>
   );
 }
 

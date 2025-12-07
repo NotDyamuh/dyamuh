@@ -2,7 +2,7 @@ const MusicPlayer = () => {
   return (
     <div className="music-player">
       <div className="song-info">
-        <span id="songTitle">2TONE</span> <span id="artist">by Yeat ft. Don Toliver</span>
+        <span id="songTitle">bigger thën everything</span> <span id="artist">by Yeat</span>
       </div>
       <br />
       <div className="controls">

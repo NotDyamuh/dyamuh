@@ -119,8 +119,8 @@ export function injectJS() {
     let isPlaying = true;
 
     const playlist = [
-      { title: "2TONE", artist: "by Yeat ft. Don Toliver", src: "2TONE.mp3" },
-      { title: "COME N GO", artist: "by Yeat", src: "comengo.mp3" },
+      { title: "bigger thën everything", artist: "by Yeat", src: "bte.mp3" },
+      { title: "2TONE", artist: "by Yeat ft. Don Toliver", src: "2TONE.mp3" }
     ];
 
     let currentSongIndex = 0;
