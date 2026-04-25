@@ -1,0 +1,55 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: opacity 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.content {
+  text-align: center;
+}
+
+.lyricsContainer {
+  font-size: 1.4rem;
+  font-weight: 300;
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.word {
+  color: #222;
+  transition: color 0.5s ease;
+}
+
+.word.light {
+  color: #fff;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+.hint {
+  font-size: 0.7rem;
+  color: #fff;
+  letter-spacing: 0.6em;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+}
+
+.hintHidden {
+  opacity: 0;
+}
